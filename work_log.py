@@ -1,6 +1,4 @@
-import csv
 import os
-import re
 import sys
 import datetime
 
@@ -17,7 +15,7 @@ class Entry(Model):
     date = DateField()
     time = IntegerField()
     notes = TextField()
-    
+
     class Meta:
         database = db
 
